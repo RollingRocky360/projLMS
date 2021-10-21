@@ -1,42 +1,51 @@
 body {
     padding: 0;
     margin: 0;
-    background-image: url("bg.jpg");
-    background-size:contain;
-    background-repeat:repeat;
+    background-color: #fff;
 }
 a{
     text-decoration: none;
 }
 #foot{
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color: #d9ecff;
+    color: black;
     font-size: 15px;
     padding: 10px 40px 10px 680px;
     text-align: right;
     width: 100%;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
 }
 #linkBut{
-    background-color: black;
-    color:white;
+    background-color: #d9ecff;
+    font-size: 15px;  
+    color:black;
     float:left;
     font-family: Arial, Helvetica, sans-serif;
-    border: 2px solid white;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
     text-align: center;
-    border-radius: 40px;
-    transition: 0.5s;
+    border-radius: 20px;
+    transition: 0.2s;
+}
+.padLinkBut{
+    padding: 10px 10px 10px 10px;
+}
+.headF{
+    position: fixed;
+    z-index: 1;
 }
 #linkBut:hover {
     background-color: #ffffff;
     color: rgb(0, 0, 0);
+    transform: translateY(-5px);
   }
 
 
 
 #textboxC{
     text-align: center;
-    color: white;
-    border: 2px solid white;
+    color: rgb(0, 0, 0);
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
     font-family: Arial, Helvetica, sans-serif;
     padding: 20px 20px 20px 20px;
     border-radius: 40px;
@@ -50,25 +59,32 @@ a{
     margin:20px 20px 20px 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
-    background-color:none;
     text-align: center;
-    border: 2px solid white;
-    color: rgb(255, 255, 255);
+    border: none;
     text-align: center;
     transition: 1.5s;
     width: 50%;
     padding: 50px 20px 50px 20px;
     display: inline-block;
-    border-radius: 40px;
+    border-radius: 60px;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    font-weight: 500;
   }
   
 .button:hover {
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+    background-color: #d9ecff;
+    box-shadow: 0px 50px 60px rgba(0, 0, 0, 0.2);
+    color: black;
+    transform: translateY(-50px);
   }
 
-
-
+  
 @media only screen and (max-width: 900px) {
     body{
         background-size: auto;
