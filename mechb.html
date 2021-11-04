@@ -1,52 +1,92 @@
 <!DOCTYPE html>
 <html>
+
+
     <head>
         <title>
             MECH B
         </title>
-        <link rel="stylesheet" href="styles.css">
-        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="dept_pages.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <style media="screen">
+            .button {
+                height: 11%;
+            }
+            @media (max-width: 720px) {
+                .button {
+                    height: 8%;
+                }
+            }
+        </style>
     </head>
+
+
     <body>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <div class="headF" id="foot">          
-            <a href="index.html" > 
-                <button class="padLinkBut" id="linkBut" style = "position:fixed; left:3%;">
-                    HOME
-                </button>                
+
+        <div class="headF">
+            <a href="index.html" >
+                <button id="linkBut">
+                    <p style="font-size: 1.5rem; margin: 0;">
+                        <span class="material-icons material-icons-round" style="margin-right: 5px;">home
+                        </span>HOME
+                    </p>
+                </button>
             </a>
-            MECH B '24
+            <p style="font-size: 2rem; margin: 0;">MECH B '24</p>
         </div><br><br>
-        <a href="http://lms.ssn.edu.in/course/view.php?id=4413" class="button w3-animate-left">
-            TRANSFORM TECHNIQUES AND PARTIAL DIFFERENTIAL EQUATIONS
-        </a>
-        <a href="http://lms.ssn.edu.in/course/view.php?id=4454" class="button w3-animate-right" style="margin-left: 45%;">
-            FLUID MECHANICS AND MACHINERY THEORY
-        </a>
-        <a href="http://lms.ssn.edu.in/course/view.php?id=4457" class="button w3-animate-left">
-            KINEMATICS OF MACHINERY
-        </a>
-        <a href="http://lms.ssn.edu.in/course/view.php?id=4456" class="button w3-animate-right" style="margin-left: 45%;"> 
-            STRENGTH OF MATERIALS
-        </a>
-        <a href="http://lms.ssn.edu.in/course/view.php?id=4455" class="button w3-animate-left">
-            MANUFACTURING PROCESSES
-        </a>
-        <a href="http://lms.ssn.edu.in/course/view.php?id=4453" class="button w3-animate-right" style="margin-left: 45%;">
-            ENGINEERING THERMODYNAMICS
-        </a>
-        <a href="http://lms.ssn.edu.in/course/view.php?id=4458" class="button w3-animate-left">
-            FLUID MECHANICS AND MACHINERY LAB 
-        </a>
-      
-        <div id="foot">          
-            <a href="contribute.html"> 
+
+
+        <div class="dept">
+            <a href="http://lms.ssn.edu.in/course/view.php?id=4413" class="button">
+                TRANSFORM TECHNIQUES AND PARTIAL DIFFERENTIAL EQUATIONS
+            </a>
+
+            <a href="http://lms.ssn.edu.in/course/view.php?id=4454" class="button">
+                FLUID MECHANICS AND MACHINERY THEORY
+            </a>
+
+            <a href="http://lms.ssn.edu.in/course/view.php?id=4457" class="button">
+                KINEMATICS OF MACHINERY
+            </a>
+
+            <a href="http://lms.ssn.edu.in/course/view.php?id=4456" class="button">
+                STRENGTH OF MATERIALS
+            </a>
+
+            <a href="http://lms.ssn.edu.in/course/view.php?id=4455" class="button">
+                MANUFACTURING PROCESSES
+            </a>
+
+            <a href="http://lms.ssn.edu.in/course/view.php?id=4453" class="button">
+                ENGINEERING THERMODYNAMICS
+            </a>
+
+            <a href="http://lms.ssn.edu.in/course/view.php?id=4458" class="button">
+                FLUID MECHANICS AND MACHINERY LAB
+            </a>
+        </div>
+
+
+        <br><br><br>
+        <div id="foot">
+            <div class="bar-screen"></div>
+            <hr>
+            <br><br>
+            <a href="contribute.html">
                 <button id="linkBut">
                     Make this site better
-                </button>                
+                    <span style="color: #d9de52; margin-left: 10px;" class="material-icons material-icons-             outlined">open_in_new
+                    </span>
+                </button>
+
             </a>
-            Developed by Vignesh Balaji
-            <!-- contributed by mrithu --> 
+            <br>
+            <p>Developed by</p>
+            <p>Vignesh Balaji</p>
+            <!-- Contributed by Mrithu -->
         </div>
+
+
     </body>
 </html>

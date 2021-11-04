@@ -1,0 +1,84 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #211e1d;
+    margin: 0;
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0.3rem auto;
+    color: #bbbcbd;
+    text-align: center;
+}
+
+#linkBut {
+    background-color: #211e1d;
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    padding: 1rem;
+    color: #d9de52;
+    border: 0;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    display: flex;
+    position: relative;
+}
+
+
+#linkBut:hover {
+    cursor: pointer;
+    border-radius: 4px;
+    box-shadow: 0px 0px 0px 2px #d9de52;
+  }
+
+.headF {
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    color: #d9de52;
+    height: 7rem;
+}
+
+.textboxC {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.contributors {
+    width: 60%;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+hr {
+    background-color: rgba(217, 222, 82, 0.7);
+    height: 2px;
+    border: 0;
+    width: 90%;
+    position: absolute;
+}
+
+.bar-screen {
+    width: 100%;
+    height: 2rem;
+    background: rgb(33,30,29);
+    background: linear-gradient(90deg, rgba(33,30,29,1) 7%, rgba(33,30,29,0) 50%, rgba(33,30,29,1) 93%);
+    z-index: 3;
+    transform: translateY(-6px);
+}
